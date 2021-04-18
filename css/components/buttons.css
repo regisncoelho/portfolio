@@ -1,0 +1,39 @@
+.button {
+    display: inline-block;
+    background-color: #2D7FA4;
+    box-shadow: 3px 3px 3px #000;
+    padding: 18px 20px;
+    margin-right: 0;
+    transition-duration: 0.45s;
+}
+
+/*pseudoclasse*/
+#button-nav:hover {
+    color: #000;
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 4px -4spx 3px #000;
+}
+
+
+#button-content1, #button-content2 {
+    margin-top: 84px;
+    line-height: 26px;
+    padding: 18px 20px;
+    width: 170px;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 52px;
+    vertical-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+}
+
+#button-content1:hover, #button-content2:hover {
+    color: #000;
+    cursor: pointer;
+}
