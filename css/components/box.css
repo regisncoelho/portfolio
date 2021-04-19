@@ -1,0 +1,14 @@
+.box {
+    background-color: #62C370;
+    position: absolute;
+    left: 91px;
+    top: 196px;
+    box-shadow: 7px 6px 0 #000;
+    text-align: center;
+    padding: 52px 62px;
+    display: block;
+}
+
+.box .title {
+    margin-bottom: 25px;
+}
