@@ -1,15 +1,22 @@
 .banner {
     background-image: url(../../assets/images/img_banner.png);
-    height: 800px;
+    box-sizing: border-box;
     background-repeat: no-repeat;
     background-size: 100%;
     border-bottom: 7px solid #000;
+    padding-left: 90px;
+    padding-top: 115px;
+    height: 800px;
 }
 
 .banner .wrapper{
     display: flex;
     flex-direction: column;
     width: 640px;
+}
+
+.banner .box{
+    margin-bottom: 40px;
 }
 
 .banner .navigation {
