@@ -18,20 +18,3 @@
     transform: scale(1.05);
     cursor: pointer;
 }
-
-#button-content1, #button-content2 {
-    margin-top: 84px;
-    line-height: 26px;
-    padding: 18px 20px;
-    width: 170px;
-    text-align: center;
-    margin-left: 60px;
-    margin-right: 52px;
-    vertical-align: center;
-}
-
-.buttons {
-    display: inline-block;
-    justify-content: space-between;
-    width: inherit;
-}
