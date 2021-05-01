@@ -4,3 +4,9 @@
     color: #000;
     text-shadow: 2px 2px 0 #CBCBCB;
 }
+
+.title.-headline{
+    font-weight: 400;
+    color: #2D7FA4;
+    text-shadow: none;
+}
