@@ -22,10 +22,13 @@
 .skill-background {
     background-color: white;
     border: 5px solid #000000;
+    background: linear-gradient(84deg, #2D7FA4 10%, #fff  10% 90%);
     box-sizing: border-box;
     width: 320px;
     height: 40px;
     float: right;
+    margin-left: 26px;
+    margin-top: 21px;
 }
 
 .icon {
@@ -45,9 +48,4 @@
 
 .bar h2 {
     margin-left: 26px;
-}
-
-.skill-background {
-    margin-left: 26px;
-    margin-top: 21px;
 }
