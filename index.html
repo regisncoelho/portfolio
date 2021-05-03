@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="css/components/title.css">
     <link rel="stylesheet" href="css/components/subtile.css">
     <link rel="stylesheet" href="css/components/section.css">
+    <link rel="stylesheet" href="css/components/skill-comp.css">
+    <link rel="stylesheet" href="css/components/progress-bar.css">
 </head>
 <body>         
     <header class="header">
@@ -41,41 +43,34 @@
     </section>
     <section class="section -skills">
             <h1 class="title -headline" lang="en">Skills</h1>
-
-        <div class="lista-skill">
-            <div id="skill-html" class="skill">
-                <div class="icon">
-                    <img src="assets/images/ico_html5.png">
+            <article class="skill-comp">
+                <img class="icon" src="assets/images/ico_html5.png" width="90px" alt="Logo HTML5">
+                <div class="right">
+                    <h3 class="title">HTML</h3>
+                    <progress class="progress-bar" max="100" value="10">10%</progress>
                 </div>
-                <div class="bar">
-                    <h2 class="subtitle">HTML</h2>
-                    <div class="skill-background"></div>
+            </article>
+            <article class="skill-comp">
+                <img class="icon" src="assets/images/ico_css3.png"width="90px" alt="Logo CSS3">
+                <div class="right">
+                    <h3 class="title">CSS</h3>
+                    <progress class="progress-bar" max="100" value="10">10%</progress>
                 </div>
-            </div>
-        <div id="skill-css" class="skill">
-            <div class="icon">
-                <img src="assets/images/ico_css3.png">
-            </div>
-            <div class="bar">
-                <h2 class="subtitle">CSS</h2>
-                <div class="skill-background"></div>
-            </div>
-        </div>
-        <div id="skill-js" class="skill">
-            <div class="icon">
-                <img src="assets/images/ico_js.png">
-            </div>
-            <div class="bar">
-                <h2 class="subtitle">JavaScript</h2>
-                <div class="skill-background"></div>
-            </div>
-        </div>
-
-        </div>
-
-
-    </section>
-      
+            </article>
+            <article class="skill-comp">
+                <img class="icon" src="assets/images/ico_js.png" width="90px" alt="Logo JavaScript">
+                <div class="right">
+                    <h3 class="title">JavaScript</h3>
+                    <progress class="progress-bar" max="100" value="10">10%</progress>
+                </div>
+            </article>
+            <article class="skill-comp">
+                <img src="assets/images/ico_datascience.png" class="icon" id="data" width="80px" alt="Icone representando data science">
+                <div class="right">
+                    <h3 class="title">Data Science<h3>
+                    <progress class="progress-bar" max="100" value="10">10%</progress>
+                </div>
+            </article>
     
 </body>
 
