@@ -1,0 +1,21 @@
+.skill-comp{
+    display:flex;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 25px;
+    color: #fff;
+    margin: 42px;
+}
+
+.skill-comp .icon{
+    margin-right: 25px;
+}
+
+#data {
+    border: 5px solid #000;
+}
+
+.skill-comp .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
