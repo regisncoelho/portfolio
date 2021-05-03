@@ -1,0 +1,14 @@
+.main-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 40px;
+    color: #000;
+    text-shadow: 2px 2px 0 #CBCBCB;
+}
+
+.main-title.-headline{
+    font-weight: 400;
+    color: #2D7FA4;
+    text-shadow: none;
+    text-align: center;
+    padding-bottom: 50px;
+}
