@@ -1,0 +1,23 @@
+.project-comp {
+    height: 280px;
+    width: 280px;
+    box-shadow: 10px 10px 0px #fff;
+}
+
+.project-comp > img {
+    width: 217px;
+    height: 217px;
+    padding: 26px;
+}
+
+.project-comp#project1 {
+    background-color: #2D7FA4;
+}
+
+.project-comp#project2 {
+    background-color:#62C370;
+}
+
+.project-comp#project3 {
+    background-color:#FB847E;
+}

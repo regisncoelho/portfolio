@@ -1,6 +1,13 @@
 .section.-skills {
     background-color: #62C370;
-    height: 530px;
+    height: 480px;
     border-bottom: 10px solid #FB847E;
+    padding: 50px 0px 100px;
+}
+
+.section.-projects {
+    background-color: rgb(46, 44, 44);
+    height: 520px;
+    border-bottom: 10px solid #2D7FA4;
     padding: 50px 0px 100px;
 }
