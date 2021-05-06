@@ -11,3 +11,10 @@
     border-bottom: 10px solid #2D7FA4;
     padding: 50px 0px 100px;
 }
+
+.section.-sobre {
+    background-color: #FB847E;
+    height: 585px;
+    border-bottom: 10px solid rgb(46, 44, 44);
+    padding: 50px 0px 20px;
+}
