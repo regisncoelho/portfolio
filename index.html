@@ -21,6 +21,9 @@
     <link rel="stylesheet" href="css/components/wrapper-project.css">
     <link rel="stylesheet" href="css/components/project-comp.css">
     <link rel="stylesheet" href="css/components/main-paragrafo.css">
+    <link rel="stylesheet" href="css/components/button-arrow.css">
+    <link rel="stylesheet" href="css/components/node-card.css">
+    <link rel="stylesheet" href="css/components/carousel.css">
     
 </head>
 <body>         
@@ -82,12 +85,16 @@
     <section class="section -projects">
         <h1 class="main-title -headline">Projetos</h1> 
         <div class="wrapper-project">
-            <figure class="project-comp" id="project1">
+            <a href="https://regisncoelho.github.io/batalhabey/" target="_blank">
+                <figure class="project-comp" id="project1">
                 <img src="assets/images/thumb_beyblade.png" alt="Imagem de um personagem jogando beyblade">
-            </figure>
-            <figure class="project-comp" id="project2">
-                <img src="assets/images/thumb_portifolio.png" alt="Imagem de Régis em pixel art">
-            </figure>
+                </figure>
+            </a>
+            <a href="https://regisncoelho.github.io/portfolio/">
+                <figure class="project-comp" id="project2">
+                    <img src="assets/images/thumb_portifolio.png" alt="Imagem de Régis em pixel art">
+                </figure>
+            </a>
             <figure class="project-comp" id="project3">
                 <img src="" alt="">    
             </figure>
@@ -95,12 +102,35 @@
     </section>
     <section class="section -sobre">
         <h1 class="main-title -headline">Sobre</h1>
-
-        Carrousel
+        <section class="carousel">
+            <button class="button-arrow -left"><span class="content">Retorna</span></button>
+            <div class="items">
+                <figure class="node-card">
+                    <figcaption class="title">2012</figcaption>
+                    <div class="logo">
+                        <img src="assets/images/logo_ufv.png" alt="Logo localweb" class="">
+                    </div>
+                </figure>
+                <figure class="node-card -even">
+                    <figcaption class="title">2014</figcaption>
+                    <div class="logo" id="logo2">
+                        <img src="assets/images/logo_ief.png" alt="Logo localweb" class="">
+                    </div>
+                </figure>
+                <figure class="node-card">
+                    <figcaption class="title">2021</figcaption>
+                    <div class="logo">
+                        <img src="assets/images/logo_question.png" alt="Logo localweb" class="">
+                    </div>
+                </figure>
+             </div>
+            <button class="button-arrow -right"><span class="content">Avança</span></button>
+        </section>
 
         <p class="main-paragrafo" id="bio">Sou economista por formação acadêmica e ambientalista por vocação. Atuo atualmente como servidor público estadual e recentemente embarquei no mundo da programação, após entreter por anos a ideia de, quem sabe, mudar radicalmente de carreira.<br>
         Meu primeiro e último contato com esse mundo havia sido há 18 anos, quando fiz um curso de Webmaster Design . Atualmente tenho estudado desenvolvimento front-end e javascript.
         </p>
+
     </section>
 </body>
 
