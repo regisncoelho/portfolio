@@ -1,8 +1,8 @@
 .carousel {
     display: flex;
     justify-content: center;
-    margin-right: auto;
-    margin-left: auto;
+    padding-left: 85px;
+    padding-right: 85px;
     position: relative;
 }
 
@@ -44,4 +44,12 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    overflow: hidden;   
+}
+
+.carousel .elements {
+    display: flex;
+    width: 100%;
+    transform: translateX(0px);
+    transition: transform 100ms ease-in-out;
 }
