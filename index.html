@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;500;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500;700&family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/components/header.css">
     <link rel="stylesheet" href="css/components/banner.css">
@@ -24,32 +24,34 @@
     <link rel="stylesheet" href="css/components/button-arrow.css">
     <link rel="stylesheet" href="css/components/node-card.css">
     <link rel="stylesheet" href="css/components/carousel.css">
+    <link rel="stylesheet" href="css/components/main-form.css">
+    <link rel="stylesheet" href="css/components/main-footer.css">
     
 </head>
 <body>         
     <header class="header">
         <img class="logo" src="assets/images/logo.png" width="60" height="60" alt="Logo do site. Personagem em frente ao computador, atrás um globo azul, símbolos de tags e códigos binários " />
         <nav> 
-            <a class="menu" href="" lang="en"> Skills </a>
-            <a class="menu" href=""> Projetos </a>
-            <a class="menu" href="https://regisncoelho.github.io/portfolio/">Sobre </a>
-            <a class="menu" href=""> Contatos </a>
-            <a class="button" lang="en">Download CV</a>
+            <a class="menu" href="#skills" lang="en"> Skills </a>
+            <a class="menu" href="#projects"> Projetos </a>
+            <a class="menu" href="#sobre">Sobre </a>
+            <a class="menu" href="#contatos"> Contatos </a>
+            <a class="button" download="" lang="en">Download CV</a>
         </nav>
     </header>
-    <section class="banner">
+    <section class="banner" id="banner">
         <div class="wrapper">
             <div class="box">
                 <h1 class="main-title">Régis Coelho</h1>
                 <h2 class="subtitle" lang="en">developer in training</h2>
             </div>
             <div class="navigation">
-                <a class="button" id="button-content1" lang="en">Download CV</a>
-                <a class="button" id="button-content2">Contato</a>
+                <a class="button" id="button-content1" download="" lang="en">Download CV</a>
+                <a class="button" id="button-content2" href="#contatos">Contato</a>
             </div>
         </div>
     </section>
-    <section class="section -skills">
+    <section class="section -skills" id="skills">
         <h1 class="main-title -headline" lang="en">Skills</h1>   
         <div class="wrapper-skill">
             <article class="skill-comp">
@@ -82,7 +84,7 @@
             </article>
         </div>
     </section>
-    <section class="section -projects">
+    <section class="section -projects" id="projects">
         <h1 class="main-title -headline">Projetos</h1> 
         <div class="wrapper-project">
             <a href="https://regisncoelho.github.io/batalhabey/" target="_blank">
@@ -100,7 +102,7 @@
             </figure>
         </div>  
     </section>
-    <section class="section -sobre">
+    <section class="section -sobre" id="sobre">
         <h1 class="main-title -headline">Sobre</h1>
         <section class="carousel">
             <button class="button-arrow -left"><span class="content">Retorna</span></button>
@@ -158,6 +160,33 @@
         </p>
 
     </section>
+    <section class="section -contato" id="contatos">
+        <h1 class="main-title -headline">Contatos</h1>
+        <form action="" class="main-form">
+            <div class="main-form">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div class="main-form">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="main-form">
+                <label for="message">Mensagem</label>
+                <textarea name="suamensagem" id="message" cols="30" rows="10" spellcheck="true" minlength="50" maxlength="1000" required></textarea>
+            </div>
+            <div class="main-form">
+                <button type="submit" class="button -form">Enviar</button>
+            </div>
+        </form>
+    </section>
+    <footer class="main-footer">
+        <figure>
+            <a href="https://github.com/regisncoelho" target="_blank"><img src="assets/images/giphy.gif" width="45px" alt="Icone do github animado"></a>
+        </figure>
+    </footer>
+
+
     <script src="js/components/carousel.js"></script>
 </body>
 

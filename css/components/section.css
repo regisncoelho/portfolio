@@ -1,6 +1,6 @@
 .section.-skills {
     background-color: #62C370;
-    height: 480px;
+    height: 500px;
     border-bottom: 10px solid #FB847E;
     padding: 50px 0px 100px;
 }
@@ -14,7 +14,12 @@
 
 .section.-sobre {
     background-color: #FB847E;
-    height: 785px;
-    border-bottom: 10px solid rgb(46, 44, 44);
+    height: 720px;
+    border-bottom: 10px solid #000;
     padding: 50px 0px 20px;
+}
+
+.section.-contato {
+    background-color: rgb(46, 44, 44);
+    padding: 50px 0px 100px;
 }
