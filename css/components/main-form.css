@@ -1,0 +1,41 @@
+
+
+.main-form > label {
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.main-form{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+div.main-form{
+    margin-bottom: 20px;
+
+}
+
+.main-form > textarea {
+    padding: 10px;
+    resize: none;
+    overflow: auto;
+    min-height: 320px;
+}
+
+.main-form > input {
+    height: 50px;
+}
+
+.main-form > input, .main-form > textarea {
+    font-family: 'Fira Code', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.1;
+    width: 100%;
+    box-sizing: border-box;
+    border: 5px solid #000;
+}
